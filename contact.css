@@ -8,7 +8,6 @@ header {
     color:white;
     background-color: white;
     width: 100%;
-    padding: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #wrapper{
@@ -19,13 +18,18 @@ header {
     background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
 }
+.links {
+    width: 20%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .content{
     background-color: white;
     width: 70%;
     padding: 5%;
     margin: 0 auto;
 }
-footer {
+footer{
     background-color: #666666;
     width: 100%;
     bottom: 0;
@@ -40,12 +44,39 @@ footer {
     width: 20%;
     float: left;
 }
-.links {
-    width: 20%;
-    float: right;
+#fullname{
     font-family: Arial, Helvetica, sans-serif;
 }
-img {
-    float: left;
-    padding: 3%;
+#email{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#message{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forms{
+    padding: 5%;
+}
+#submit{
+    color: teal;
+    border: none;
+    border-radius: 4px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: teal;
+    color: white;
+}
+.nav-container{
+    width: 70%;
+    margin: 0 auto;
 }
