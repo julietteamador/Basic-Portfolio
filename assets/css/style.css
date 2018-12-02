@@ -16,9 +16,9 @@ header {
     padding: 40px;
     clear: both;
     min-height: 100%;
-    background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
-}
+    background-image:url(assets/images/folk-pattern/folk-pattern.png)
+}    
 .content{
     background-color: white;
     width: 70%;
@@ -48,4 +48,11 @@ footer {
 img {
     float: left;
     padding: 3%;
+}
+.nav-container{
+    width: 70%;
+    margin: 0 auto;
+}
+body{
+    background-image: url(../images/folk-pattern/folk-pattern.png)
 }
